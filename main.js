@@ -1,7 +1,7 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
-const chanelBot = '729360276142686238';
-const prefix = '!';
+const {Client, MessageEmbed} = require('discord.js');
+const client = new Client();
+const {TOKEN, PREFIX, BOTCHAN} = require('./config');
+
 const sonObj = require('./cartes.json');
 
 client.on('ready', () => {
@@ -18,15 +18,15 @@ client.on('message', msg => {
     
     //console.log('Cmd = ' + cmd + ' et Arg = ' + arg);
 
-    if (currentChan.id.toString() === chanelBot) {
+    if (currentChan.id.toString() === BOTCHAN) {
 
-        if(cmd === prefix + 'test'){
+        if(cmd === PREFIX + 'test'){
             currentChan.send('grr')
             .then(message => console.log(`Sent message: ${message.content}`))
             .catch(console.error);
         }
 
-        if(cmd === prefix + 'grrr'){
+        if(cmd === PREFIX + 'grrr'){
 
             let d = Math.random();
             console.log('d = ' + d);
@@ -43,7 +43,7 @@ client.on('message', msg => {
             let color = finalClan === 'Asteros' ? '9933ff' : finalClan === 'Ceos' ? '0033cc' : finalClan === 'Ares' ? 'ffcc00' : finalClan === 'Hemera' ? '00cc66' : finalClan === 'Ether' ? 'ff0000' : '000000';
             console.log('TEST = '+ finalName + ' ' + finalUrl + ' ' + finalClan + ' ' + color);
             
-            let embed = new Discord.MessageEmbed()
+            let embed = new MessageEmbed()
                 .setTitle(finalName)
                 .setImage(finalUrl)
                 .setDescription(finalClan)
@@ -57,4 +57,4 @@ client.on('message', msg => {
     }
 });
 
-client.login('MjM4NzE3MzUyNTA4Nzg0NjQw.XwH0tg.O0XGsGSHmPB5RBV1tc2AjFimbz4');
+client.login(TOKEN);
