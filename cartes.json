@@ -1,0 +1,161 @@
+{
+    "Legendaire" : [
+        {
+            "name" : "Miaou",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380088675696670/Carte_Miaou.png",
+            "clan" : ""
+        },
+
+        {
+            "name" : "EH",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729384055686037554/Carte_eh.png",
+            "clan" : ""
+        }
+    ],
+
+    "Tres Rare" : [
+        {
+            "name" : "Polemique",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380097488060416/Carte_Polemique.png",
+            "clan" : "Ares"
+        },
+
+        {
+            "name" : "Riaken",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380106459414558/Carte_Riaken.png",
+            "clan" : "Asteros"
+        }
+    ],
+
+    "Rare" : [
+        {
+            "name" : "Coriolys",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380148058652672/Carte_Coriolys.png",
+            "clan" : "Hemera"
+        },
+
+        {
+            "name" : "Hiekka",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380195617996800/Carte_Hiekka.png",
+            "clan" : "Hemera"
+        },
+
+        {
+            "name" : "Queenement",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380099098411098/Carte_Queenement.png",
+            "clan" : "Hemera"
+        },
+
+        {
+            "name" : "Croyance",        
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380156791062618/Carte_Croyance.png",
+            "clan" : "Ether"
+        },
+
+        {
+            "name" : "Deleted",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380169197813818/Carte_Deleted.png",
+            "clan" : "Ether"
+        },
+
+        {
+            "name" : "Desirae",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380175262908437/Carte_Desirae.png",
+            "clan" : "Ether"
+        },
+
+        {
+            "name" : "Risque",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380108917538836/Carte_Risque.png",
+            "clan" : "Ceos"  
+        },
+
+        {
+            "name" : "Pokka",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380094732402759/Carte_Pokka.png",
+            "clan" : "Ceos"
+        },
+
+        {
+            "name" : "Logicien",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380202299392050/Carte_Logicien.png",
+            "clan" : "Ceos"
+        },
+
+        {
+            "name" : "Mikoh",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380091108261968/Carte_Mikoh.png",
+            "clan" : "Asteros"
+        },
+
+        {
+            "name" : "Cuvettine",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380163032186971/Carte_Cuvettine.png",
+            "clan" : "Ares"
+        },
+
+        {
+            "name" : "Godlyyシ",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380186981662751/Carte_Godlyy.png",
+            "clan" : "Ares"
+        }
+    ],
+
+    "Peu Commun" : [
+        {
+            "name" : "Rhime",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380101447483412/Carte_Rhime.png",
+            "clan" : "Ares"
+        },
+
+        {
+            "name" : "Akillusion",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380816114942082/Carte_Akillusion.png",
+            "clan" : "Ares"
+        },
+
+        {
+            "name" : "Yung God",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380445887922206/Carte_yung_god.png",
+            "clan" : "Asteros"
+        },
+
+        {
+            "name" : "Moragecko",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380092995698858/Carte_Moragecko.png",
+            "clan" : "Asteros"
+        },
+
+        {
+            "name" : "Vandal",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380574850056342/Carte_Vandal.png",
+            "clan" : "Ceos"
+        },
+
+        {
+            "name" : "Codfish",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380141599424512/Carte_Codfish.png",
+            "clan" : "Ceos"
+        }
+    ],
+
+    "Commun" : [
+        {
+            "name" : "Maeghan",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729380086825877554/Carte_Maeghan.png",
+            "clan" : "Juge"
+        },
+
+        {
+            "name" : "Paugau",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729386858366369883/Carte_Paugau.png",
+            "clan" : "Juge"
+        },
+
+        {
+            "name" : "Sax",
+            "url" : "https://cdn.discordapp.com/attachments/729360276142686238/729387272679719022/Carte_Sax.png",
+            "clan" : "Juge"
+        }
+    ]
+}
