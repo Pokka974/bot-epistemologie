@@ -4,7 +4,7 @@ const {TOKEN, PREFIX} = require('./config');
 
 
 client.PREFIX = PREFIX;
-
+client.mongoose = require('./util/mongoose');
 client.commands = new Collection();
 client.commands.set('test', require('./commands/test.js'));
 client.commands.set('grrr', require('./commands/grrr.js'));
@@ -12,6 +12,7 @@ client.commands.set('grrr', require('./commands/grrr.js'));
 client.on('ready', () => require('./events/ready.js')(client));
 client.on('message', (msg) => require('./events/message.js')(client, msg));
 
+client.mongoose.init();
 client.login(TOKEN);
 client.on('error', console.error);
 client.on('warn' , console.warn);
