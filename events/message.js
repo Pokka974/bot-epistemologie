@@ -1,4 +1,4 @@
-const {BOTCHAN} = require('./config');
+const {BOTCHAN} = require('../config');
 module.exports = (client, message) => {
     if(message.author.bot) return;
     if(message.content.indexOf(client.PREFIX) !== 0) return;
